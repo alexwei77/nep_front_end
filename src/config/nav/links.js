@@ -14,6 +14,10 @@ import {
   InsuranceIconOutlined,
   InsuranceIconFilled
 } from '../../components/shared/icons/InsuranceIcon'
+import {
+  ConvertIconOutlined,
+  ConvertIconFilled
+} from '../../components/shared/icons/ConvertIcon'
 
 const data = [
   {
@@ -39,6 +43,12 @@ const data = [
     path: '/prediction-market',
     icon: PredMktIconOutlined,
     activeIcon: PredMktIconFilled
+  },
+  {
+    name: 'Convert',
+    path: '/convert',
+    icon: ConvertIconOutlined,
+    activeIcon: ConvertIconFilled
   }
 ]
 
